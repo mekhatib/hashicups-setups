@@ -100,7 +100,7 @@ variable "default_tags" {
   default = {
     Purpose = "hashicups-setups"
   }
-
+}
 variable "service-principal-key-client-id" {
   type        = string
   description = "HCP Client ID"
@@ -112,4 +112,3 @@ variable "service-principal-key-client-secret" {
 }
 
 
-}
