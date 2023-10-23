@@ -2,7 +2,7 @@ terraform {
   required_providers {
     hcp = {
       source  = "hashicorp/hcp"
-      version = "~> 0.20"
+      version = "~> 0.74.1"
     }
     aws = {
       source  = "hashicorp/aws"
